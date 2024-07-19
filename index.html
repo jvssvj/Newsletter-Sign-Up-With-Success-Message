@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/indexResponsive.css">
+  <script src="src/index.js" defer></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+  <main class="newsletter__card">
+    <section class="newsletter__card__txt">
+
+      <h1 class="newsletter__card__txt__t">Stay updated!</h1>
+      <p class="newsletter__card__txt__p">Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul class="newsletter__card__txt__infos">
+        <li class="newsletter__card__txt__infos__info1 info">
+          <img src="assets/images/icon-list.svg" alt="Check Icon"> Product discovery and building what matters
+        </li>
+
+        <li class="newsletter__card__txt__infos__info2 info">
+          <img src="assets/images/icon-list.svg" alt="Check Icon"> Measuring to ensure updates are a success
+          
+        </li>
+        <li class="newsletter__card__txt__infos__info3 info">
+          <img src="assets/images/icon-list.svg" alt="Check Icon"> And much more!
+        </li>
+      </ul>
+      
+      <form id="frm" class="newsletter__card__txt__form">
+        <div class="newsletter__card__txt__form__error">
+          <label class="label__email" for="input--email">Email address</label>
+          <span id="error"></span>
+        </div>
+
+        <input type="email" name="input--email" id="input--email" placeholder="email@company.com">
+
+        <input type="submit" value="Subscribe to monthly newsletter" id="subscribing">
+      </form>
+    </section>
+
+    <picture class="newsletter__card__illustration">
+      <source media="(max-width: 780px)" srcset="assets/images/illustration-sign-up-mobile.svg" type="image/svg+xml">
+      <img class="illustration__desktop" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </picture>
+  </main>
+
+  <section class="thanks__card">
+    <img class="thanks__card__icon" src="assets/images/icon-success.svg" alt="">
+    <h2 class="thanks__card__t">Thanks for subscribing!</h2>
+    <p class="thanks__card__p">A confirmation email has been sent to <strong id="user--email">ash@loremcompany.com</strong>. Please open it and click the button inside to confirm your subscription.</p>
+    <input id="dismiss--message" type="button" value="Dismiss message">
+  </section>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io/profile/jvssvj" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-62b518263/" target="_blank">João Vitor</a></p>
+  </footer>
+</body>
+</html>
