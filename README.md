@@ -35,7 +35,7 @@
 |||
 | :----- | :----- |
 | Solution URL: | [Frontend Mentor - Newsletter sign-up form with success message](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-main-NSx2p1ov4t) |
-| Live Site URL: | <a target href="https://jvssvj.github.io/Newsletter-Sign-Up-With-Success-Message-Main/" target="_blank">Newsletter sign-up form with success message</a>
+| Live Site URL: | <a target href="https://jvssvj.github.io/Newsletter-Sign-Up-With-Success-Message/" target="_blank">Newsletter sign-up form with success message</a>
 |||
 
 <br>
